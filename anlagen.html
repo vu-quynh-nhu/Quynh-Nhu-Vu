@@ -6,19 +6,9 @@
     </head>
     <style>
         body {
-            background-image: url(img/background.jpg);
+            background-image: url(img/homebg.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
-        }
-        .bar {
-            position: relative;
-            top: 10px;
-            left: 10px;
-        }
-        .folder {
-            position: absolute;
-            top: 0px;
-            left: 25px;
         }
     </style>
     <body oncontextmenu="return false;" ondragstart="return false;">
@@ -35,23 +25,17 @@
         <br>
         <br>
         <br>
-        
-        <div style="position: relative; left: 0; top: 0;">
-            <p style="text-align: center">
-                <img src="img/black bar.png" width="1041" height="202" class="bar"/>
-                <a href="über mich.html">
-                    <img src="img/folder.png" width="126" height="103" style="margin:45px 270px" class="folder"/>
-                </a>
-                <a href="lebenslauf.html">
-                    <img src="img/folder_purple.png" width="126" height="103" style="margin:45px 500px" class="folder"/>
-                </a>
-                <a href="files/Abiturzeugnis.pdf" target="_blank">
-                    <img src="img/folder_pink.png" width="126" height="103" style="margin:45px 740px" class="folder"/>
-                </a>
-                <a href="files/IU_Informationen.pdf" target="_blank">
-                    <img src="img/folder_green.png" width="126" height="103" style="margin:45px 970px" class="folder"/>
-                </a>
-            </p>
-        </div>
+        <br>
+        <br>
+        <map name="menu">
+            <area shape="rect" coords="114,24,179,115" alt="Blue" href="über mich.html">
+            <area shape="rect" coords="326,42,414,116" alt="Purple" href="lebenslauf.html">
+            <area shape="rect" coords="544,43,636,117" alt="Pink" href="files/Abiturzeugnis.pdf"  target="_blank">
+            <area shape="rect" coords="766,44,856,115" alt="Green" href="files/IU_Informationen.pdf" target="_blank">
+        </map>
+        <p style="text-align: center">
+            <img src="img/menu bar.png" alt="Menu" usemap="#menu" width="961" height="186"/>
+        </p>
     </body>
 </html>
+                
