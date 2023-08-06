@@ -6,30 +6,52 @@
     </head>
     <style>
         body {
-            background-image: url(img/homebg.jpg);
+            background-image: url(img/background.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;  
-            
+        }
+        .bar {
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        .folder {
+            position: absolute;
+            top: 0px;
+            left: 25px;
         }
     </style>
     <body oncontextmenu="return false;" ondragstart="return false;">
         <p style="text-align: center">
             <a href="index.html">
-                <img src="img/name.png" width="297" height="52">
+                <img src="img/name.png" width="209" height="19">
             </a>
         </p>
         <br>
         <br>
         <br>
-        <p style="text-align: center">
-            <a href="dateien.html">
-                <img src="img/folder.png" width="477" height="389">
-            </a>
-        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         
-        <p style="text-align: center">
-            <img src="img/unterschrift.png" width="262" height="86">
-        </p>
+        <div style="position: relative; left: 0; top: 0;">
+            <p style="text-align: center">
+                <img src="img/black bar.png" width="1041" height="202" class="bar"/>
+                <a href="über mich.html">
+                    <img src="img/folder.png" width="126" height="103" style="margin:45px 270px" class="folder"/>
+                </a>
+                <a href="lebenslauf.html">
+                    <img src="img/folder_purple.png" width="126" height="103" style="margin:45px 500px" class="folder"/>
+                </a>
+                <a href="files/Abiturzeugnis.pdf" target="_blank">
+                    <img src="img/folder_pink.png" width="126" height="103" style="margin:45px 740px" class="folder"/>
+                </a>
+                <a href="files/IU_Informationen.pdf" target="_blank">
+                    <img src="img/folder_green.png" width="126" height="103" style="margin:45px 970px" class="folder"/>
+                </a>
+            </p>
+        </div>
     </body>
 </html>
