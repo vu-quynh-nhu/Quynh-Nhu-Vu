@@ -15,6 +15,20 @@
         p.ex1 {
             margin-right: 50px;
         }
+        .goback {
+            position: relative;
+            display: inline-block;
+            margin: 10px 30px;
+        }
+        .goback .img-top {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .goback:hover .img-top {
+            display: inline;
+        }
     </style>
     <body oncontextmenu="return false;" ondragstart="return false;">
         <p style="text-align: center">
@@ -80,5 +94,11 @@
         <p style="text-align: center">
             <img src="img/ipod.png" alt="Map" usemap="#map">
         </p>
+        <div class="goback"> 
+            <a href="anlagen.html">
+                <img src="img/goback.png" width="260" height="33">
+                <img src="img/hover.png" class="img-top" width="260" height="33">
+            </a>
+        </div>
     </body>
 </html>

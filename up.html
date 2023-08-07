@@ -21,6 +21,20 @@
         .ipod {
             position: absolute;
         }
+        .goback {
+            position: relative;
+            display: inline-block;
+            margin: 10px 30px;
+        }
+        .goback .img-top {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .goback:hover .img-top {
+            display: inline;
+        }
     </style>
     <body oncontextmenu="return false;" ondragstart="return false;">
         <p style="text-align: center">
@@ -88,6 +102,23 @@
                 <img src="img/ipodscreen.png" alt="Map" usemap="#map" class="ipod"> 
                 <iframe width="360" height="250" src="https://www.youtube.com/embed/kcelgrGY1h8?controls=0&amp;start=68" title="YouTube video player" class="video" style="margin:37px 17.5px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="goback"> 
+            <a href="anlagen.html">
+                <img src="img/goback.png" width="260" height="33">
+                <img src="img/hover.png" class="img-top" width="260" height="33">
+            </a>
         </div>
     </body>
 </html>
