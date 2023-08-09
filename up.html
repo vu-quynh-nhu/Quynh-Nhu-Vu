@@ -12,7 +12,7 @@
             background-attachment: fixed;
             background-size: cover;  
         }
-        p.ex1 {
+        p.txt {
             margin-right: 50px;
         }
         .video {
@@ -21,25 +21,17 @@
         .ipod {
             position: absolute;
         }
-        .goback {
-            position: relative;
-            display: inline-block;
-            margin: 10px 30px;
+        p:hover {
+            color: rgba(10, 74, 147, 0.827);
         }
-        .goback .img-top {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        .goback:hover .img-top {
-            display: inline;
+        a {
+            color: rgb(0, 0, 0);
         }
     </style>
     <body oncontextmenu="return false;" ondragstart="return false;">
         <p style="text-align: center">
             <a href="index.html">
-                <img src="img/name.png" width="209" height="19">
+                <img src="img/name.png" width="209" height="19"/>
             </a>
         </p>
         <br>
@@ -51,22 +43,22 @@
         <br>
         <br>
         <br>
-        <bold class="p.ex1" style="font-family:'Segoe UI Semibold'; font-size:25px">
+        <bold class="p.txt" style="font-family:'Segoe UI Semibold'; font-size:25px">
             <img src="img/fotoround.png" width="392" height="383" align="left" style="margin:7px 63px"/>Da mein echter Name für die Meisten nicht leicht auszusprechen ist, nennen mich alle <i>Tina</i> :).
         </bold>
         <br>
         <br>
-        <bold class="p.ex1" class="p.ex1" style="font-family:'Segoe UI Semibold'; font-size:25px">
+        <bold class="p.txt" style="font-family:'Segoe UI Semibold'; font-size:25px">
             Ich höre gerne Musik, zeichne gerne, schneide und bearbeite in meiner Freizeit Videos und treibe gerne Sport (fitness, tanzen, schwimmen). 
         </bold>
         <br>
         <br>
-        <bold class="p.ex1" style="font-family:'Segoe UI Semibold'; font-size:25px">
+        <bold class="p.txt" style="font-family:'Segoe UI Semibold'; font-size:25px">
             Spiele spiele ich auch gerne, meistens auf der Nintendo Switch (Mario Spiele, Animal Crossing) oder Stardew Valley auf dem Laptop. 
         </bold>
         <br>
         <br>
-        <bold class="p.ex1" style="font-family:'Segoe UI Semibold'; font-size:25px">
+        <bold class="p.txt" style="font-family:'Segoe UI Semibold'; font-size:25px">
             Kochen tue ich auch gerne, denn es hilft mir, um mich von einem anstrengenden Tag zu entspannen und nachdem ich fertig gekocht habe kommt meine nächste Lieblingsaktivität: nämlich essen :). 
         </bold>
         <map name="map">
@@ -93,13 +85,13 @@
         </bold>
         <br>
         <bold style="font-family:'Segoe UI Semibold'; font-size:25px; margin-left: 2.3em">
-            Klicke auf eines der Symbole( <img src="img/symbols.png" width="99" height="33">) und siehe, was passiert.                               
+            Klicke auf eines der Symbole( <img src="img/symbols.png" width="99" height="33"/>) und siehe, was passiert.                               
         </bold>
         <br>
         <br>
         <div style="position: relative; left: 0; top: 0;">
             <p style="text-align: center">
-                <img src="img/ipodscreen.png" alt="Map" usemap="#map" class="ipod"> 
+                <img src="img/ipodscreen.png" alt="Map" usemap="#map" class="ipod"/> 
                 <iframe width="360" height="250" src="https://www.youtube.com/embed/kcelgrGY1h8?controls=0&amp;start=68" title="YouTube video player" class="video" style="margin:37px 17.5px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </p>
         </div>
@@ -114,11 +106,8 @@
         <br>
         <br>
         <br>
-        <div class="goback"> 
-            <a href="anlagen.html">
-                <img src="img/goback.png" width="260" height="33">
-                <img src="img/hover.png" class="img-top" width="260" height="33">
-            </a>
-        </div>
+        <a href="anlagen.html" style="text-decoration:none">
+            <p style="font-family:'Agrandir'; font-size:20px; text-align: center">✦ &nbspzurück zu den anlagen&nbsp ✦</p>
+        </a>
     </body>
 </html>
